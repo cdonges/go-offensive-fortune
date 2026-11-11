@@ -1,0 +1,9 @@
+services:
+  offensive-fortune:
+    image: ghcr.io/cdonges/go-offensive-fortune:latest
+    container_name: offensive-fortune
+    ports:
+      - "6724:6724"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

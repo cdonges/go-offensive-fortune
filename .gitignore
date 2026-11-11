@@ -1,0 +1,39 @@
+# Binaries
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the Go coverage tool
+*.out
+coverage.out
+
+# Go workspace file
+go.work
+
+# Dependency directories (from `go mod vendor`)
+vendor/
+
+# Local environment / editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database or runtime-generated artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+build/
+dist/
+
+# Logs
+*.log
